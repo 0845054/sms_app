@@ -1,4 +1,4 @@
-# flutter_application_1
+# sms_app
 
 A new Flutter project.
 
