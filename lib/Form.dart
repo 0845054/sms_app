@@ -12,8 +12,7 @@ class FormPage extends HookWidget {
     final TextEditingController _textField = TextEditingController(text: '');
 
     void _sendMsg() {
-      sendMsg(_textField.text);
-      print('Success! = ${_textField.text}');
+      sendMsg1(_textField.text);
       Navigator.pop(context);
       return;
     }
